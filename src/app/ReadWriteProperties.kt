@@ -27,6 +27,7 @@ class Person(param: String) {
 
 fun main() {
     val person = Person("RIKO")
+    println(person.name)
     person.name = "mail"
     println(person.name)
 }
